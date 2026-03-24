@@ -1,4 +1,4 @@
-From 407c41fa0062a4ab40601d9f72ae9583baeae633 Mon Sep 17 00:00:00 2001
+From b731c423567d47d85fea4fd3b593fa65b1651248 Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Sat, 13 Dec 2014 03:06:05 +0100
 Subject: [PATCH] BungeeCord API
@@ -22,7 +22,7 @@ index c5e3a9a1b..dda8a5df9 100644
      public PacketType<ClientboundSystemChatPacket> type() {
          return GamePacketTypes.CLIENTBOUND_SYSTEM_CHAT;
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftServer.java b/src/main/java/org/bukkit/craftbukkit/CraftServer.java
-index b17027325..ee98fac12 100644
+index 22de82591..f49efad4d 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftServer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftServer.java
 @@ -270,6 +270,8 @@ import org.yaml.snakeyaml.Yaml;
@@ -32,9 +32,9 @@ index b17027325..ee98fac12 100644
 +import net.md_5.bungee.api.chat.BaseComponent; // Spigot
 +
  public final class CraftServer implements Server {
-     private final String serverName = "CraftBukkit";
      private final String serverVersion;
-@@ -2598,6 +2600,20 @@ public final class CraftServer implements Server {
+     private final String bukkitVersion = Versioning.getBukkitVersion();
+@@ -2597,6 +2599,20 @@ public final class CraftServer implements Server {
          public void restart() {
              org.spigotmc.RestartCommand.restart();
          }
