@@ -1,4 +1,4 @@
-From 7448f81b188b1f9d217f207938271ce40f01d3c4 Mon Sep 17 00:00:00 2001
+From 68e523a6d21744481ab2b2f543a4690984361d6c Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Sun, 7 Jul 2013 09:32:53 +1000
 Subject: [PATCH] Spigot Configuration
@@ -6,7 +6,7 @@ Subject: [PATCH] Spigot Configuration
 Provides the basic infrastructure to load and save the Spigot configuration file, spigot.yml
 
 diff --git a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
-index 02a6685fa..dd9134128 100644
+index d42337a24..3c8d01bf7 100644
 --- a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 +++ b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 @@ -261,6 +261,11 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface
@@ -31,10 +31,10 @@ index 02a6685fa..dd9134128 100644
          server.enablePlugins(org.bukkit.plugin.PluginLoadOrder.STARTUP);
          // CraftBukkit end
 diff --git a/src/main/java/net/minecraft/world/level/Level.java b/src/main/java/net/minecraft/world/level/Level.java
-index 5f2c8e551..91ceb9697 100644
+index 6342427e7..0de24e4ac 100644
 --- a/src/main/java/net/minecraft/world/level/Level.java
 +++ b/src/main/java/net/minecraft/world/level/Level.java
-@@ -161,6 +161,7 @@ public abstract class Level implements LevelAccessor, AutoCloseable {
+@@ -160,6 +160,7 @@ public abstract class Level implements LevelAccessor, AutoCloseable {
      public List<ItemEntity> captureDrops;
      public final it.unimi.dsi.fastutil.objects.Object2LongOpenHashMap<SpawnCategory> ticksPerSpawnCategory = new it.unimi.dsi.fastutil.objects.Object2LongOpenHashMap<>();
      public boolean populating;
@@ -42,7 +42,7 @@ index 5f2c8e551..91ceb9697 100644
  
      public CraftWorld getWorld() {
          return this.world;
-@@ -173,6 +174,7 @@ public abstract class Level implements LevelAccessor, AutoCloseable {
+@@ -172,6 +173,7 @@ public abstract class Level implements LevelAccessor, AutoCloseable {
      public abstract ResourceKey<LevelStem> getTypeKey();
  
      protected Level(WritableLevelData levelData, ResourceKey<Level> dimension, RegistryAccess registryAccess, Holder<DimensionType> dimensionTypeRegistration, boolean isClientSide, boolean isDebug, long biomeZoomSeed, int maxChainedNeighborUpdates, org.bukkit.generator.ChunkGenerator gen, org.bukkit.generator.BiomeProvider biomeProvider, org.bukkit.World.Environment env) {
@@ -51,7 +51,7 @@ index 5f2c8e551..91ceb9697 100644
          this.world = new CraftWorld((ServerLevel) this, gen, biomeProvider, env);
  
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftServer.java b/src/main/java/org/bukkit/craftbukkit/CraftServer.java
-index 28bc8ccb1..a25a3a4cc 100644
+index 3d881d4c1..06f6ebdce 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftServer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftServer.java
 @@ -954,6 +954,7 @@ public final class CraftServer implements Server {
@@ -380,5 +380,5 @@ index 000000000..1cce14866
 +    }
 +}
 -- 
-2.54.0
+2.55.0
 

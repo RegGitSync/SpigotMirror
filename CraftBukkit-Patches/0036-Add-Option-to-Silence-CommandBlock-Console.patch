@@ -1,14 +1,14 @@
-From 696ba1369b9cf4e87cf1bcd4d0a783ddcbf0cac0 Mon Sep 17 00:00:00 2001
+From a23846d26407bdc8997caff1e97ad87f22a731c6 Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Sun, 9 Feb 2014 14:39:01 +1100
 Subject: [PATCH] Add Option to Silence CommandBlock Console
 
 
 diff --git a/src/main/java/net/minecraft/commands/CommandSourceStack.java b/src/main/java/net/minecraft/commands/CommandSourceStack.java
-index 977670995..f14c0072d 100644
+index 1d766c75d..a5845a485 100644
 --- a/src/main/java/net/minecraft/commands/CommandSourceStack.java
 +++ b/src/main/java/net/minecraft/commands/CommandSourceStack.java
-@@ -347,7 +347,7 @@ public class CommandSourceStack implements SharedSuggestionProvider, ExecutionCo
+@@ -353,7 +353,7 @@ public class CommandSourceStack implements SharedSuggestionProvider, ExecutionCo
              }
          }
  
@@ -33,5 +33,5 @@ index d53c089eb..12ffd7837 100644
 +    }
  }
 -- 
-2.54.0
+2.55.0
 
