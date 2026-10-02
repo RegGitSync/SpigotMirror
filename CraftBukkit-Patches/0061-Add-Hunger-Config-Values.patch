@@ -1,11 +1,11 @@
-From 11814179b72eea7d42ce79d71f0cdabf527f28ec Mon Sep 17 00:00:00 2001
+From 9bfb2c863a83850c2b60a56d4d0d9c8a01384198 Mon Sep 17 00:00:00 2001
 From: lazertester <austin.techhead@gmail.com>
 Date: Sun, 17 Aug 2014 19:56:17 +1000
 Subject: [PATCH] Add Hunger Config Values
 
 
 diff --git a/src/main/java/net/minecraft/server/level/ServerPlayer.java b/src/main/java/net/minecraft/server/level/ServerPlayer.java
-index 8bb34a546..9f83fc782 100644
+index 349e004c5..c4767eeae 100644
 --- a/src/main/java/net/minecraft/server/level/ServerPlayer.java
 +++ b/src/main/java/net/minecraft/server/level/ServerPlayer.java
 @@ -1982,21 +1982,21 @@ public class ServerPlayer extends Player {
@@ -123,6 +123,3 @@ index 7882c95f4..1b5d1e283 100644
 +        otherMultiplier = (float) getDouble( "hunger.other-multiplier", 0.0 );
 +    }
  }
--- 
-2.55.0
-

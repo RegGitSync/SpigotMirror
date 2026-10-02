@@ -1,4 +1,4 @@
-From b77e734945725c1a3565df7ee66655351c1e5131 Mon Sep 17 00:00:00 2001
+From 1c315dd425601a2080f73742650a19f1677889cc Mon Sep 17 00:00:00 2001
 From: Dmck2b <dmck2b+github@gmail.com>
 Date: Mon, 20 Jan 2014 20:18:23 +0000
 Subject: [PATCH] Allow toggling of ZombiePigmen spawning in portal blocks
@@ -33,6 +33,3 @@ index 3e398c4e0..d4eb3ccda 100644
 +        log( "Allow Zombie Pigmen to spawn from portal blocks: " + enableZombiePigmenPortalSpawns );
 +    }
  }
--- 
-2.55.0
-

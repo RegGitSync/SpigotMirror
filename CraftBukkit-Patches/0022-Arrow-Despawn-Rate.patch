@@ -1,4 +1,4 @@
-From 253399d1b4a02c6866905f295b44e4ad505a0160 Mon Sep 17 00:00:00 2001
+From 02e841596ba2b022d8b843c1e76092f18755a38f Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Mon, 14 Oct 2013 19:20:10 +1100
 Subject: [PATCH] Arrow Despawn Rate
@@ -35,6 +35,3 @@ index cec948a05..4894096ae 100644
 +        log( "Arrow Despawn Rate: " + arrowDespawnRate + " Trident Respawn Rate:" + tridentDespawnRate );
 +    }
  }
--- 
-2.55.0
-

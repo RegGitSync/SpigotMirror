@@ -1,4 +1,4 @@
-From 0b22f584629170e0e8fd28d10250ac3659c877ce Mon Sep 17 00:00:00 2001
+From 23cab23b8d5639a2e0054a948badaa61abae4dd9 Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Fri, 20 Feb 2015 21:39:31 +1100
 Subject: [PATCH] Allow Capping (Tile)Entity Tick Time.
@@ -104,6 +104,3 @@ index 000000000..23a39382b
 +        return remaining < maxTime;
 +    }
 +}
--- 
-2.55.0
-

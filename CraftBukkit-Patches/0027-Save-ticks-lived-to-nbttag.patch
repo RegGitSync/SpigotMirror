@@ -1,4 +1,4 @@
-From 261dea8d4eb40c0a96ccf93a3a19ceb541edf95c Mon Sep 17 00:00:00 2001
+From 16cfe0d11544f9266aec9f5ce01027068fc893b9 Mon Sep 17 00:00:00 2001
 From: DerFlash <bte@freenet.de>
 Date: Tue, 9 Jul 2013 00:11:12 +0200
 Subject: [PATCH] Save ticks lived to nbttag
@@ -28,6 +28,3 @@ index 1a0a92ef7..d25ba80cc 100644
              this.persist = input.getBooleanOr("Bukkit.persist", this.persist);
              this.visibleByDefault = input.getBooleanOr("Bukkit.visibleByDefault", this.visibleByDefault);
              // SPIGOT-6907: re-implement LivingEntity#setMaximumAir()
--- 
-2.55.0
-

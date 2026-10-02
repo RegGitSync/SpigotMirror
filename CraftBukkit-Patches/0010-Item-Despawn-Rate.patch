@@ -1,4 +1,4 @@
-From 79b3fb10a36cda7debba937632d7bb12de33ceda Mon Sep 17 00:00:00 2001
+From 6431f2a8c26954b4e3cfcfcfc7a90c21272d5a74 Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Sun, 22 Sep 2013 19:10:53 +1000
 Subject: [PATCH] Item Despawn Rate
@@ -42,6 +42,3 @@ index 0c0c29efe..e3682d28c 100644
 +        log( "Item Despawn Rate: " + itemDespawnRate );
 +    }
  }
--- 
-2.55.0
-

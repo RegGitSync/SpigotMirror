@@ -1,4 +1,4 @@
-From b63855ef3d3b8d1c09f8e1ed3552c8983a8ff987 Mon Sep 17 00:00:00 2001
+From cdbe5f64b3e75fc0b477b1dea53c0cb0367a2fbc Mon Sep 17 00:00:00 2001
 From: Thinkofdeath <thethinkofdeath@gmail.com>
 Date: Fri, 11 Apr 2014 11:16:34 +0100
 Subject: [PATCH] Display 'Spigot' in client crashes, server lists and Mojang
@@ -18,6 +18,3 @@ index 292c92b16..c1042ae54 100644
      }
  
      public ServerClockManager clockManager() {
--- 
-2.55.0
-

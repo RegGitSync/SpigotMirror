@@ -1,4 +1,4 @@
-From 9dea7ecc2d3416aff2416338d20c48d5ee03042e Mon Sep 17 00:00:00 2001
+From 7df702c3be58b759f524f1b1902b3cd52c6b2398 Mon Sep 17 00:00:00 2001
 From: Aikar <aikar@aikar.co>
 Date: Thu, 10 Jan 2013 00:18:11 -0500
 Subject: [PATCH] Spigot Timings
@@ -123,7 +123,7 @@ index a0dc5a153..a1c3d818d 100644
          profilerfiller.popPush("send chunks");
  
 diff --git a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
-index 3c8d01bf7..fd17c8262 100644
+index 4eeb4a4c4..22f688d47 100644
 --- a/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 +++ b/src/main/java/net/minecraft/server/dedicated/DedicatedServer.java
 @@ -79,6 +79,7 @@ import org.apache.logging.log4j.Level;
@@ -134,7 +134,7 @@ index 3c8d01bf7..fd17c8262 100644
  import org.bukkit.craftbukkit.util.TerminalConsoleWriterThread;
  import org.bukkit.event.server.ServerCommandEvent;
  import org.bukkit.event.server.RemoteServerCommandEvent;
-@@ -530,6 +531,7 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface
+@@ -533,6 +534,7 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface
      }
  
      public void handleConsoleInputs() {
@@ -142,7 +142,7 @@ index 3c8d01bf7..fd17c8262 100644
          while (!this.consoleInput.isEmpty()) {
              ConsoleInput consoleinput = (ConsoleInput) this.consoleInput.remove(0);
  
-@@ -544,6 +546,7 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface
+@@ -547,6 +549,7 @@ public class DedicatedServer extends MinecraftServer implements ServerInterface
              // CraftBukkit end
          }
  
@@ -283,7 +283,7 @@ index edc7bbf48..45fe1edd6 100644
      }
  
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index f046d5f2d..c731730a5 100644
+index 2fc2a8409..3f60d6569 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -382,6 +382,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl
@@ -593,10 +593,10 @@ index f54f967bf..1ec8e8d1f 100644
          };
      }
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftServer.java b/src/main/java/org/bukkit/craftbukkit/CraftServer.java
-index 84decfbba..a41747eab 100644
+index 4ae503686..e66990721 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftServer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftServer.java
-@@ -2570,6 +2570,11 @@ public final class CraftServer implements Server {
+@@ -2574,6 +2574,11 @@ public final class CraftServer implements Server {
      private final org.bukkit.Server.Spigot spigot = new org.bukkit.Server.Spigot()
      {
  
@@ -831,6 +831,3 @@ index c885bc744..70794669f 100644
 +    }
 +    // Spigot end
  }
--- 
-2.55.0
-

@@ -1,4 +1,4 @@
-From a3ff4cd4c781eb331b5cb10a97887989be115c68 Mon Sep 17 00:00:00 2001
+From 3c011cd2d01523d1f5c14b45a709a8da3229309c Mon Sep 17 00:00:00 2001
 From: Aikar <aikar@aikar.co>
 Date: Sat, 2 Nov 2024 18:16:11 +1100
 Subject: [PATCH] Entity Activation Range
@@ -567,6 +567,3 @@ index e3682d28c..936279b5f 100644
 +        log( "Entity Activation Range: An " + animalActivationRange + " / Mo " + monsterActivationRange + " / Ra " + raiderActivationRange + " / Mi " + miscActivationRange + " / Tiv " + tickInactiveVillagers + " / Isa " + ignoreSpectatorActivation );
 +    }
  }
--- 
-2.55.0
-

@@ -1,11 +1,11 @@
-From c2213773182f48413a777e943a0fc5a19c60e01b Mon Sep 17 00:00:00 2001
+From 84bf67db741627bbce65733e7669c68165d3f1fa Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Sun, 2 Jun 2013 10:36:24 +1000
 Subject: [PATCH] POM Changes
 
 
 diff --git a/checkstyle.xml b/checkstyle.xml
-index 1d1e06c8..feb3b07e 100644
+index c6dc8fc9..72f903b7 100644
 --- a/checkstyle.xml
 +++ b/checkstyle.xml
 @@ -55,6 +55,10 @@
@@ -20,7 +20,7 @@ index 1d1e06c8..feb3b07e 100644
          <!-- See https://checkstyle.org/checks/imports/index.html -->
          <module name="AvoidStarImport">
 diff --git a/pom.xml b/pom.xml
-index 9fe9490c..9240e3e6 100644
+index 52d6d310..27c0e845 100644
 --- a/pom.xml
 +++ b/pom.xml
 @@ -3,14 +3,14 @@
@@ -52,6 +52,3 @@ index 9fe9490c..9240e3e6 100644
                          <phase>initialize</phase>
                          <goals>
                              <goal>describe</goal>
--- 
-2.55.0
-

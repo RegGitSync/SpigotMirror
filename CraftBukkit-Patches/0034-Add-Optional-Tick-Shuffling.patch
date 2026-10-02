@@ -1,4 +1,4 @@
-From ff831874fab5f41d000b561abca81369be151428 Mon Sep 17 00:00:00 2001
+From e949a1750aa19937332c80174d679a00cbfa171a Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Mon, 27 Jan 2014 08:39:26 +1100
 Subject: [PATCH] Add Optional Tick Shuffling
@@ -38,6 +38,3 @@ index cabfecd2a..9744e9456 100644
 +        playerShuffle = getInt( "settings.player-shuffle", 0 );
 +    }
  }
--- 
-2.55.0
-

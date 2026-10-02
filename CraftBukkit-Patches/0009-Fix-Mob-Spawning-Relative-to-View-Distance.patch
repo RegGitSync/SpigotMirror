@@ -1,4 +1,4 @@
-From 36a20ae9a4c098b78bc2d6bafc60113ed90dcd35 Mon Sep 17 00:00:00 2001
+From 6f2398911f5994819bc1b23c3de3159f5b454afb Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Fri, 21 Jun 2013 17:29:54 +1000
 Subject: [PATCH] Fix Mob Spawning Relative to View Distance
@@ -103,6 +103,3 @@ index acaf90301..0c0c29efe 100644
 +        log( "Mob Spawn Range: " + mobSpawnRange );
 +    }
  }
--- 
-2.55.0
-

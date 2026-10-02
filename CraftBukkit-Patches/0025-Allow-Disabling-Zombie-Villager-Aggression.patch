@@ -1,4 +1,4 @@
-From 7796b648b7d9f6f02e8898ac0a4759c037d88102 Mon Sep 17 00:00:00 2001
+From 52a87b9b43299cba268c94ae75c8ef4b009af51d Mon Sep 17 00:00:00 2001
 From: Dylan Xaldin <Puremin0rez515@gmail.com>
 Date: Thu, 12 Dec 2013 18:05:03 -0600
 Subject: [PATCH] Allow Disabling Zombie Villager Aggression
@@ -34,6 +34,3 @@ index 4894096ae..457a8e84b 100644
 +        log( "Zombie Aggressive Towards Villager: " + zombieAggressiveTowardsVillager );
 +    }
  }
--- 
-2.55.0
-

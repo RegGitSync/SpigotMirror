@@ -1,4 +1,4 @@
-From 6f728fdc46b7f54aeab9a687910757db6f068fe0 Mon Sep 17 00:00:00 2001
+From 9bbc21eae7a1fa32a3b3aaf6f45dda258439a73b Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Sat, 13 Dec 2014 03:06:05 +0100
 Subject: [PATCH] BungeeCord API
@@ -22,10 +22,10 @@ index c5e3a9a1b..dda8a5df9 100644
      public PacketType<ClientboundSystemChatPacket> type() {
          return GamePacketTypes.CLIENTBOUND_SYSTEM_CHAT;
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftServer.java b/src/main/java/org/bukkit/craftbukkit/CraftServer.java
-index 864a1fd0d..a32efa6b9 100644
+index af7418a10..fe998af97 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftServer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftServer.java
-@@ -274,6 +274,8 @@ import org.yaml.snakeyaml.Yaml;
+@@ -276,6 +276,8 @@ import org.yaml.snakeyaml.Yaml;
  import org.yaml.snakeyaml.constructor.SafeConstructor;
  import org.yaml.snakeyaml.error.MarkedYAMLException;
  
@@ -34,7 +34,7 @@ index 864a1fd0d..a32efa6b9 100644
  public final class CraftServer implements Server {
      private final String serverVersion;
      private final String bukkitVersion = Versioning.getBukkitVersion();
-@@ -2605,6 +2607,20 @@ public final class CraftServer implements Server {
+@@ -2609,6 +2611,20 @@ public final class CraftServer implements Server {
          public void restart() {
              org.spigotmc.RestartCommand.restart();
          }
@@ -462,6 +462,3 @@ index 4b2a5394a..6807f429f 100644
      public static ChatFormatting getColor(ChatColor color) {
          return formatMap.get(color.getChar());
      }
--- 
-2.55.0
-

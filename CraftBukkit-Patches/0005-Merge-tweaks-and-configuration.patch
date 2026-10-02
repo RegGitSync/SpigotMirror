@@ -1,4 +1,4 @@
-From 32234e0e483ef98b56e4928d6215ce326dd6923b Mon Sep 17 00:00:00 2001
+From 84303850db4e68bbaac421cd5b596936d41bd51c Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Sat, 23 Mar 2013 09:46:33 +1100
 Subject: [PATCH] Merge tweaks and configuration
@@ -81,6 +81,3 @@ index f42972427..5ff085b9e 100644
 +        log( "Experience Merge Radius: " + expMerge );
 +    }
  }
--- 
-2.55.0
-

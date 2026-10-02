@@ -1,4 +1,4 @@
-From aad3718ad1953a94d0acb1edf7112ec6699fc92a Mon Sep 17 00:00:00 2001
+From 2f10bed53bbdcd451a1403f876f7bc4fd23f2ea4 Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Thu, 27 Jun 2013 17:26:09 +1000
 Subject: [PATCH] Properly Close Inventories
@@ -39,6 +39,3 @@ index acd2b8e84..3b29b0c21 100644
              ServerLevel.this.getChunkSource().removeEntity(entity);
              if (entity instanceof ServerPlayer serverplayer) {
                  ServerLevel.this.players.remove(serverplayer);
--- 
-2.55.0
-

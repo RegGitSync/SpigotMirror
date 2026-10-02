@@ -1,4 +1,4 @@
-From 6f5447d6dca7d37e6e177f54b15d2d39094f838e Mon Sep 17 00:00:00 2001
+From 6fee30d3ea0c7524a58e89a52d7e2e77299c1836 Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Fri, 13 Dec 2013 11:58:58 +1100
 Subject: [PATCH] Configurable Amount of Netty Threads
@@ -43,6 +43,3 @@ index 1e6b13103..809177065 100644
 +        Bukkit.getLogger().log( Level.INFO, "Using {0} threads for Netty based IO", count );
 +    }
  }
--- 
-2.55.0
-

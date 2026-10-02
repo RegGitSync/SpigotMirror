@@ -1,4 +1,4 @@
-From ca37b2351707501b200dbef4e9ce8aaf2c9762bd Mon Sep 17 00:00:00 2001
+From 0e70790d076ee267f030357b275d1bc0c87cc725 Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Sun, 2 Feb 2014 16:55:46 +0000
 Subject: [PATCH] Add Option to Nerf Mobs from Spawners
@@ -37,6 +37,3 @@ index 457a8e84b..3e398c4e0 100644
 +        log( "Nerfing mobs spawned from spawners: " + nerfSpawnerMobs );
 +    }
  }
--- 
-2.55.0
-

@@ -1,11 +1,11 @@
-From 2fe60d435e9eb8c3dc2f566b93adf226e651e425 Mon Sep 17 00:00:00 2001
+From 0e408a41c14a7431b763970a32fe20d459dcc7d9 Mon Sep 17 00:00:00 2001
 From: Jonas Konrad <me@yawk.at>
 Date: Fri, 4 Jul 2014 23:03:13 +0200
 Subject: [PATCH] Make "moved wrongly" limit configurable
 
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index ad9a68e4a..915ee1901 100644
+index 89be83889..8b9ce1a9f 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -643,7 +643,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl
@@ -41,6 +41,3 @@ index d830925db..37bb28c98 100644
 +        movedWronglyThreshold = getDouble( "settings.moved-wrongly-threshold", 0.0625D );
 +    }
  }
--- 
-2.55.0
-

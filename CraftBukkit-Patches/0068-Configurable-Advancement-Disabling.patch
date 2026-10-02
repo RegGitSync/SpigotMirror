@@ -1,4 +1,4 @@
-From 3461bb132595eecbd95bb5331b1ca3dd12a384da Mon Sep 17 00:00:00 2001
+From fb0da661f6368be401ef00829c61a185af4c9174 Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Fri, 9 Jun 2017 16:29:31 +1000
 Subject: [PATCH] Configurable Advancement Disabling
@@ -6,7 +6,7 @@ Subject: [PATCH] Configurable Advancement Disabling
 Allow disabling any (or all) inbuilt advancements with a configuration option.
 
 diff --git a/src/main/java/net/minecraft/server/PlayerAdvancements.java b/src/main/java/net/minecraft/server/PlayerAdvancements.java
-index ab1049600..999d812e5 100644
+index e9cce25f7..427079671 100644
 --- a/src/main/java/net/minecraft/server/PlayerAdvancements.java
 +++ b/src/main/java/net/minecraft/server/PlayerAdvancements.java
 @@ -133,6 +133,7 @@ public class PlayerAdvancements {
@@ -50,6 +50,3 @@ index ac9d222e8..3a42829ee 100644
 +        disabledAdvancements = getList("advancements.disabled", Arrays.asList(new String[]{"minecraft:story/disabled"}));
 +    }
  }
--- 
-2.55.0
-

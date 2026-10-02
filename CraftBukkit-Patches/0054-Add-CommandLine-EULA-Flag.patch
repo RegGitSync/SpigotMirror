@@ -1,4 +1,4 @@
-From 4d074f0edc19b3a08b88a2a334a43874a63bec11 Mon Sep 17 00:00:00 2001
+From 61a7b8c90f183dc088fbd87fabed24f661b11907 Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Wed, 9 Jul 2014 10:35:44 +1000
 Subject: [PATCH] Add CommandLine EULA Flag
@@ -29,6 +29,3 @@ index 9aea56fa4..c2177e77a 100644
                  Main.LOGGER.info("You need to agree to the EULA in order to run the server. Go to eula.txt for more info.");
                  return;
              }
--- 
-2.55.0
-

@@ -1,4 +1,4 @@
-From 78206b1f96daac2b0f18a395bfd55af6b941c578 Mon Sep 17 00:00:00 2001
+From 0fe9b585fa3482d5c474c5c9aedde0fdd7dd2b4d Mon Sep 17 00:00:00 2001
 From: Tux <write@imaginarycode.com>
 Date: Sun, 9 Feb 2014 14:03:03 -0500
 Subject: [PATCH] Add support for fetching hidden players
@@ -30,6 +30,3 @@ index 358fb08dd..fc0f88805 100644
      };
  
      public Player.Spigot spigot()
--- 
-2.55.0
-

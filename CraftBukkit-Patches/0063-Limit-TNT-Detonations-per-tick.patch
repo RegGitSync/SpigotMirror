@@ -1,4 +1,4 @@
-From 0db1b4925605cc866aec203b9b41c0fea1e7e426 Mon Sep 17 00:00:00 2001
+From e37f308abe6a2e02851f19d29fbf00ee97121e48 Mon Sep 17 00:00:00 2001
 From: Aikar <aikar@aikar.co>
 Date: Wed, 20 Aug 2014 18:12:32 -0400
 Subject: [PATCH] Limit TNT Detonations per tick
@@ -50,6 +50,3 @@ index 1b5d1e283..8411f9e57 100644
 +        log( "Max TNT Explosions: " + maxTntTicksPerTick );
 +    }
  }
--- 
-2.55.0
-

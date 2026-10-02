@@ -1,4 +1,4 @@
-From 91933a0b927e63fef5db8700bb9ef29441735bd5 Mon Sep 17 00:00:00 2001
+From c4aca2e650c1175d7c7ca590b1a7af7f6fc3acd9 Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Mon, 7 Mar 2016 22:14:13 +1100
 Subject: [PATCH] Crop Growth Rates
@@ -295,6 +295,3 @@ index 1cce14866..f42972427 100644
 +        caveVinesModifier = getAndValidateGrowth( "CaveVines" );
 +    }
  }
--- 
-2.55.0
-

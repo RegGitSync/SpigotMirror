@@ -1,4 +1,4 @@
-From f340d9ef08d09e28b23808e8487a2737c87b9539 Mon Sep 17 00:00:00 2001
+From 9858d189b335c575f6658e658c5264a00b4f122b Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Fri, 4 Jul 2014 13:28:45 +1000
 Subject: [PATCH] Further Seed Customisation
@@ -226,6 +226,3 @@ index 7f5f97def..7882c95f4 100644
 +                + " Ocean: " + oceanSeed + " Shipwreck: " + shipwreckSeed + " End City: " + endCitySeed + " Slime: " + slimeSeed + " Nether: " + netherSeed + " Mansion: " + mansionSeed + " Fossil: " + fossilSeed + " Portal: " + portalSeed );
 +    }
  }
--- 
-2.55.0
-

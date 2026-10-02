@@ -1,4 +1,4 @@
-From db1a158d445203b0e8f93e087fdeb2686a9e9299 Mon Sep 17 00:00:00 2001
+From 60aa2e2f00811d35b4633e287b80f0528726b593 Mon Sep 17 00:00:00 2001
 From: Thinkofdeath <thinkofdeath@spigotmc.org>
 Date: Sat, 19 Jul 2014 19:54:41 +0100
 Subject: [PATCH] Prevent a crash involving attributes
@@ -25,6 +25,3 @@ index fc0f88805..0cf2d445d 100644
          collection.add(dummy);
      }
  
--- 
-2.55.0
-

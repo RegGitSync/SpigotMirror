@@ -1,11 +1,11 @@
-From be9f2541dd8d32a1bd45697b266a67fc6154a11e Mon Sep 17 00:00:00 2001
+From 1aced1044467e37013ff575740ec0a14491c17ae Mon Sep 17 00:00:00 2001
 From: Jonas Konrad <me@yawk.at>
 Date: Tue, 22 Jul 2014 15:59:01 +0200
 Subject: [PATCH] Make "moved too quickly" limit configurable
 
 
 diff --git a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
-index 915ee1901..b8dcfd4b4 100644
+index 8b9ce1a9f..123a05b43 100644
 --- a/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 +++ b/src/main/java/net/minecraft/server/network/ServerGamePacketListenerImpl.java
 @@ -608,7 +608,7 @@ public class ServerGamePacketListenerImpl extends ServerCommonPacketListenerImpl
@@ -41,6 +41,3 @@ index 37bb28c98..f276966f8 100644
 +        movedTooQuicklyMultiplier = getDouble( "settings.moved-too-quickly-multiplier", 10.0D );
 +    }
  }
--- 
-2.55.0
-

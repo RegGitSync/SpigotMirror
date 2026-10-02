@@ -1,4 +1,4 @@
-From 453e8cbd87e567b06d75937af9b7ea17e0d0f2ad Mon Sep 17 00:00:00 2001
+From 05a9059b3e3bf72d8e96c223ee976924517ddf99 Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Thu, 26 Jan 2017 21:50:51 +0000
 Subject: [PATCH] Highly Optimized Tick Loop
@@ -128,6 +128,3 @@ index 000000000..f5b6dec1c
 +                + ( ( tps > 20.0 ) ? "*" : "" ) + Math.min( Math.round( tps * 100.0 ) / 100.0, 20.0 );
 +    }
 +}
--- 
-2.55.0
-

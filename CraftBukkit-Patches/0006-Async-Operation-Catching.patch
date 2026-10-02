@@ -1,4 +1,4 @@
-From aa0b70ad64517e417c38adcf6799746fd331a1ab Mon Sep 17 00:00:00 2001
+From 3ca763787695abc7dce7594e24210287ece145db Mon Sep 17 00:00:00 2001
 From: md_5 <git@md-5.net>
 Date: Tue, 25 Mar 2014 16:10:01 +1100
 Subject: [PATCH] Async Operation Catching
@@ -137,10 +137,10 @@ index 8cbe3aad7..a538227a2 100644
      // CraftBukkit start
      protected void onPlace(BlockState blockstate, Level level, BlockPos blockpos, BlockState blockstate1, boolean flag, @Nullable UseOnContext context) {
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftServer.java b/src/main/java/org/bukkit/craftbukkit/CraftServer.java
-index 06f6ebdce..84decfbba 100644
+index 86c8f678b..4ae503686 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftServer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftServer.java
-@@ -910,6 +910,7 @@ public final class CraftServer implements Server {
+@@ -912,6 +912,7 @@ public final class CraftServer implements Server {
      public boolean dispatchCommand(CommandSender sender, String commandLine) {
          Preconditions.checkArgument(sender != null, "sender cannot be null");
          Preconditions.checkArgument(commandLine != null, "commandLine cannot be null");
@@ -271,6 +271,3 @@ index 000000000..aeed76972
 +        }
 +    }
 +}
--- 
-2.55.0
-

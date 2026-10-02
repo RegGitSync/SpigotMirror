@@ -1,4 +1,4 @@
-From a0f9c39a9c1dfe0a6eb1ff44bf086c94f8175a4a Mon Sep 17 00:00:00 2001
+From b7f24b8e63708c82dd69c3e450e8af104c5a6630 Mon Sep 17 00:00:00 2001
 From: Thinkofdeath <thinkofdeath@spigotmc.org>
 Date: Wed, 2 Jul 2014 23:35:51 +0100
 Subject: [PATCH] Better item validation
@@ -19,6 +19,3 @@ index 15278775d..caf2f3482 100644
                      Item.STREAM_CODEC.encode(output, itemStack.typeHolder());
                      patchCodec.encode(output, itemStack.components.asPatch());
                  }
--- 
-2.55.0
-
